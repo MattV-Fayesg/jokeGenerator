@@ -1,5 +1,7 @@
-body {
-  background-color: rgb(47, 97, 80);
+p {
+  font-size: 32px;
+  padding: 30px;
+  color: rgb(27, 21, 34);
 }
 
 .joke {
@@ -13,7 +15,14 @@ body {
   color: beige;
 }
 
-h1 {
+.JokeBox {
+  border-radius: 8px;
+  margin: 05px;
+  width: 50%;
+  align-items: center;
+  text-wrap: balance;
   text-align: center;
-  color: beige;
+  word-wrap: break-word;
+  background: rgb(244, 245, 209);
+  box-shadow: 10px 10px 24px rgb(34, 77, 61);
 }

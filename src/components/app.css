@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  color: beige;
+  text-shadow: 10px 10px 24px rgb(23, 52, 41);
+}
+
+body {
+  background-color: rgb(47, 97, 80);
+  margin: 0px;
+}
+
+.Header {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(58, 132, 104);
+  box-shadow: 10px 10px 24px rgb(23, 52, 41);
+}

@@ -6,7 +6,14 @@ interface ButtonProps {
 }
 
 const Button: FC<ButtonProps> = (props) => {
-  return <button onClick={props.callApi}>Click and get a Joke.</button>;
+  return (
+    <div>
+      <button onClick={props.callApi}>
+        <text>Click and get a </text>
+        <text className="textBold">JOKE</text>
+      </button>
+    </div>
+  );
 };
 
 export default Button;

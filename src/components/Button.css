@@ -1,19 +1,26 @@
 button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #70a03a;
-  color: #ffffff;
+  margin: 30px;
+  color: rgb(27, 21, 34);
   border: none;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 100px;
   transition: background-color 0.5s;
+  background: rgb(255, 235, 14);
+  box-shadow: 10px 10px 24px rgb(34, 77, 61);
 }
 
 button:hover {
-  background-color: #c1f590;
+  background-color: rgb(255, 248, 114);
 }
 
 button:active {
   background-color: #297910;
+}
+
+.textBold {
+  font-weight: bolder;
+  font-size: 20px;
 }
